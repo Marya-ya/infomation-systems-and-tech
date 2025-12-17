@@ -1,114 +1,88 @@
-% библиография к реферату по 3.3 семинару
+% Библиография к реферату "Сетевая архитектура и базовая безопасность"
 
 % ============================================================================
-% ВОПРОС 1. Основные принципы построения компьютерных сетей и их архитектуры.
+% Раздел 1. Основные принципы построения компьютерных сетей и их архитектуры
 % ============================================================================
 
-@book{tanenbaum2010computer,
-  author = {Tanenbaum, Andrew S. and Wetherall, David J.},
-  title = {Computer Networks},
-  edition = {5th},
-  publisher = {Pearson Prentice Hall},
-  year = {2010},
-  isbn = {978-0-13-212695-3},
-  note = {Classic reference on computer network architecture and protocols}
+@book{tanenbaum2011computer,
+  title={Computer Networks},
+  author={Tanenbaum, Andrew S. and Wetherall, David J.},
+  year={2011},
+  edition={5th},
+  publisher={Pearson}
 }
 
-@book{kurose2020computer,
-  author = {Kurose, James F. and Ross, Keith W.},
-  title = {Computer Networking},
-  edition = {8th},
-  publisher = {Pearson},
-  year = {2020},
-  isbn = {978-0-13-359814-3},
-  note = {Comprehensive textbook on computer networks covering TCP/IP, routing, and applications}
+@book{kurose2021computer,
+  title={Computer Networking: A Top-Down Approach},
+  author={Kurose, James F. and Ross, Keith W.},
+  year={2021},
+  edition={8th},
+  publisher={Pearson}
 }
 
-@article{forouzan2012data,
-  author = {Forouzan, Behrouz A.},
-  title = {Data Communications and Networking},
-  edition = {5th},
-  publisher = {McGraw-Hill},
-  year = {2012},
-  isbn = {978-0-07-338085-0},
-  note = {Educational textbook on data communications fundamentals}
+@book{stallings2010data,
+  title={Data and Computer Communications},
+  author={Stallings, William},
+  year={2010},
+  edition={9th},
+  publisher={Prentice Hall}
 }
 
-@book{cisco_academy,
-  author = {{Cisco Networking Academy}},
-  title = {CCNA Routing and Switching Essentials},
-  edition = {2nd},
-  publisher = {Cisco Press},
-  year = {2014},
-  isbn = {978-1-58713-323-9},
-  note = {Practical certification preparation for networking professionals}
-}
-
-@standard{iso_osi,
-  organization = {{International Organization for Standardization}},
-  title = {Information processing systems -- Open Systems Interconnection -- Basic Reference Model},
-  number = {ISO/IEC 7498},
-  year = {1994},
-  note = {Official ISO standard for the OSI model}
+@book{spurgeon2014ethernet,
+  title={Ethernet: The Definitive Guide},
+  author={Spurgeon, Charles E. and Zimmerman, Joann},
+  year={2014},
+  edition={2nd},
+  publisher={O'Reilly Media}
 }
 
 % ============================================================================
-% ВОПРОС 2. IP‑адресация и маршрутизация данных в сетевых окружениях.
+% Раздел 2. IP-адресация и маршрутизация в компьютерных сетях
 % ============================================================================
 
-@book{olofer2019computer,
-  author = {Олифер, В. Г. and Олифер, Н. А.},
-  title = {Компьютерные сети. Принципы, технологии, протоколы},
-  edition = {6th},
-  year = {2019},
-  publisher = {Питер},
-  url = {https://www.piter.com/collection/new/product/kompyuternye-seti-printsipy-tehnologii-protokoly-6-e-izdanie-3},
-  note = {Дата обращения: 05.12.2025}
+@book{comer2018internetworking,
+  title={Internetworking with TCP/IP Volume One},
+  author={Comer, Douglas E.},
+  year={2018},
+  edition={6th},
+  publisher={Pearson}
 }
 
-@rfc{rfc791,
-  author = {Postel, J.},
-  title = {Internet Protocol -- DARPA Internet Program Protocol Specification},
-  organization = {Internet Engineering Task Force},
-  number = {RFC 791},
-  year = {1981},
-  url = {https://tools.ietf.org/html/rfc791},
-  note = {Дата обращения: 05.12.2025}
+@online{fuller1993cidr,
+  title={Classless Inter-Domain Routing (CIDR): An Address Assignment and Aggregation Strategy},
+  author={Fuller, Vince and Li, Tony and Yu, Jessica and Varadhan, Kannan},
+  year={1993},
+  url={https://www.rfc-editor.org/rfc/rfc1519},
+  note={RFC 1519 / IETF. Официальная спецификация бесклассовой междоменной маршрутизации.},
+  urldate={2024-03-15}
 }
 
-@rfc{rfc2460,
-  author = {Deering, S. and Hinden, R.},
-  title = {Internet Protocol, Version 6 (IPv6) Specification},
-  organization = {Internet Engineering Task Force},
-  number = {RFC 2460},
-  year = {1998},
-  url = {https://tools.ietf.org/html/rfc2460},
-  note = {Дата обращения: 05.12.2025}
+@book{huitema1995routing,
+  title={Routing in the Internet},
+  author={Huitema, Christian},
+  year={1995},
+  publisher={Prentice Hall}
 }
 
-@rfc{rfc1519,
-  author = {Fuller, V. and Li, T. and Yu, J. and Varadhan, K.},
-  title = {Classless Inter-Domain Routing (CIDR): an Address Assignment and Aggregation Strategy},
-  organization = {Internet Engineering Task Force},
-  number = {RFC 1519},
-  year = {1993},
-  url = {https://tools.ietf.org/html/rfc1519},
-  note = {Дата обращения: 05.12.2025}
-}
-
-@rfc{rfc4271,
-  author = {Rekhter, Y. and Li, T. and Hares, S.},
-  title = {A Border Gateway Protocol 4 (BGP-4)},
-  organization = {Internet Engineering Task Force},
-  number = {RFC 4271},
-  year = {2006},
-  url = {https://tools.ietf.org/html/rfc4271},
-  note = {Дата обращения: 05.12.2025}
+@online{rekhter2006bgp,
+  title={A Border Gateway Protocol 4 (BGP-4)},
+  author={Rekhter, Yakov and Li, Tony and Hares, Susan},
+  year={2006},
+  url={https://www.rfc-editor.org/rfc/rfc4271},
+  note={RFC 4271 / IETF. Официальная спецификация протокола BGP-4.},
+  urldate={2024-03-15}
 }
 
 % ============================================================================
-% ВОПРОС 3. Организация и назначение локальных и глобальных сетей.
+% Раздел 3. Локальные и глобальные сети: принципы организации и взаимодействия
 % ============================================================================
+
+@book{kleppmann2017designing,
+  title={Designing Data-Intensive Applications},
+  author={Kleppmann, Martin},
+  year={2017},
+  publisher={O'Reilly Media}
+}
 
 @book{strigunov2016,
   author    = {Стригунов, В. В.},
@@ -144,38 +118,36 @@
 }
 
 % ============================================================================
-% ВОПРОС 4. Назначение и функции фаерволов в защите сетевой инфраструктуры.
+% Раздел 4. Роль межсетевого экрана в защите сетевой инфраструктуры
 % ============================================================================
 
-@online{kaspersky_firewall,
-    title = {Что такое {Firewall} (файрвол, брэндмауэр)?},
-    author = {{Kaspersky Lab}},
-    year = {2024},
-    url = {https://www.kaspersky.ru/resource-center/definitions/firewall},
+@book{cheswick2003firewalls,
+  title={Firewalls and Internet Security: Repelling the Wily Hacker},
+  author={Cheswick, William R. and Bellovin, Steven M. and Rubin, Aviel D.},
+  year={2003},
+  edition={2nd},
+  publisher={Addison-Wesley}
 }
 
-@article{chen_research_2023,
-    title = {Research on firewall technology and its application in computer network security strategy},
-    author = {Chen, Haijun},
-    journal = {Applied and Computational Engineering},
-    volume = {13},
-    number = {1},
-    pages = {323--328},
-    year = {2023},
-    url = {https://www.researchgate.net/publication/367103503_Research_on_firewall_technology_and_its_application_in_computer_network_security_strategy},
+@online{kindervag2010zerotrust,
+  title={No More Chewy Centers: Introducing The Zero Trust Model Of Information Security},
+  author={Kindervag, John},
+  year={2010},
+  url={https://www.forrester.com/report/No-More-Chewy-Centers-The-Zero-Trust-Model-Of-Information-Security/RES56682},
+  note={Forrester Research. Технический отчёт, вводящий концепцию Zero Trust.},
+  urldate={2024-03-15}
 }
 
-@article{seyidova_karatova_brandmauery_2022,
-    title = {Брандмауэры: исследование методов безопасности и угроз},
-    author = {Сеидова, И. and Каратова, Д.},
-    journal = {CyberLeninka},
-    pages = {491--492},
-    year = {2022},
-    url = {https://cyberleninka.ru/article/n/brandmauery-issledovanie-metodov-bezopasnosti-i-ugroz},
+% ============================================================================
+% Раздел 5. Защита от вредоносного программного обеспечения в сетевой среде
+% ============================================================================
 
-% ============================================================================
-% ВОПРОС 5. Использование антивирусных средств и методов защиты от вредоносного ПО.
-% ============================================================================
+@book{szor2005art,
+  title={The Art of Computer Virus Research and Defense},
+  author={Sz\"{o}r, P\'{e}ter},
+  year={2005},
+  publisher={Addison-Wesley}
+}
 
 @online{avtest2024,
     author = {{AV-TEST GmbH}},
@@ -218,48 +190,38 @@
 }
 
 % ============================================================================
-% ВОПРОС 6. Принципы резервного копирования и восстановления данных.
+% Раздел 6. Резервное копирование и восстановление данных
 % ============================================================================
 
-@online{SecurityVisionISO27001,
-    author = {Security Vision},
-    title = {ISO 27001: Система управления информационной безопасностью},
-    url = {https://www.securityvision.ru/education/cyberwiki/i/iso-27001/},
-    year = {2024},
-    language = {russian}
+@book{preston2007backup,
+  title={Backup \& Recovery},
+  author={Preston, W. Curtis},
+  year={2007},
+  publisher={O'Reilly Media}
 }
 
-@online{SecurityVisionNIST,
-    author = {Security Vision},
-    title = {NIST SP 800-184: Guide for Cybersecurity Event Recovery},
-    url = {https://www.securityvision.ru/blog/obzor-publikatsii-nist-sp-800-184-guide-for-cybersecurity-event-recovery/},
-    year = {2024},
-    language = {russian}
+@online{iso27001,
+  title={ISO/IEC 27001:2013 Information technology -- Security techniques -- Information security management systems -- Requirements},
+  organization={ISO/IEC},
+  year={2013},
+  url={https://www.iso.org/standard/54534.html},
+  note={Международный стандарт управления информационной безопасностью.},
+  urldate={2024-03-15}
 }
 
-@online{CyberProtect2024,
-    author = {CyberProtect},
-    title = {Методы резервного копирования данных: полный, дифференциальный, инкрементальный},
-    url = {https://cyberprotect.ru/blog/backup-methods},
-    year = {2024},
-    month = {August},
-    language = {russian}
+@online{personaldata,
+  title={Федеральный закон от 27.07.2006 N 152-ФЗ «О персональных данных»},
+  year={2006},
+  url={http://pravo.gov.ru/proxy/ips/?docbody=&nd=102108261},
+  note={Официальный интернет-портал правовой информации.},
+  urldate={2024-03-15}
 }
 
-@online{Cleverence2025,
-    author = {Cleverence},
-    title = {Резервное копирование данных в бизнесе: зачем и как правильно настроить},
-    url = {https://www.cleverence.ru/articles/it-i-razrabotka/-rezervnoe-kopirovanie-dannyh-v-biznese-zachem-i-kak-ego-pravilno-nastroit/},
-    year = {2025},
-    month = {November},
-    language = {russian}
-}
-
-@online{DataCheap2025,
-    author = {DataCheap},
-    title = {Резервное копирование ЦОД: стратегии и решения 2025},
-    url = {https://datacheap.ru/about/blog/rezервное-копирование-tsod-strategii-i-resheniya-2025/},
-    year = {2025},
-    month = {December},
-    language = {russian}
+@online{nist800184,
+  title={NIST Special Publication 800-184: Guide for Cybersecurity Event Recovery},
+  author={Bartock, Michael and Scarfone, Karen and Smith, Matthew and Witte, Greg and Cichonski, Jeffrey and Souppaya, Murugiah},
+  year={2016},
+  url={https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-184.pdf},
+  note={National Institute of Standards and Technology. Руководство по восстановлению после киберинцидентов.},
+  urldate={2024-03-15}
 }
